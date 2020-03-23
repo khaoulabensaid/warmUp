@@ -4,6 +4,18 @@
 //1. Write a JavaScript function to check whether an `input` is an array or not
 // ex isArray([1,2])=>true
 //    isArray(5)=>false
+function isArray(array){
+	var count= 0;
+	for(var key in array){
+		array.hasOwnProperty(key)=array[key];
+        count++; 
+	}
+	
+ if (count !== 0 ){
+ 	return false;
+ }
+  return true;
+}
 
 // **************** git status ****************
 // **************** git add fileName.js ****************
