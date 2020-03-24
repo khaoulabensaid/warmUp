@@ -37,8 +37,14 @@ if (y=== 0){
 // **************** git push origin master ****************
 
 function sum(x, y){
+	function inc(x) {
+    return x + 1;
+     }
+    function dec(x) {
+    return x - 1;
+    }
 	if (y === 0){
 		return x;
 	}
-	return x+ sum(x, y-1);
+	return sum(inc(x), dec(y);
 }
