@@ -1,6 +1,11 @@
 // 1-Choose the correct comparison operator to display "true", when: 5 is less than 7.
+<<<<<<< HEAD
 //answer :
 5 !== 7 ;
+=======
+//answer : 5 < 7 ? true : false;
+
+>>>>>>> 61b0662bb14ae4fe1668c5e0f12461a2bba0362d
 //2- Write a function named helloWorld that:
 //takes 1 argument, a language code (e.g. "fr", "es", "en")
 //returns "Hello, World" for the given language, for atleast 3 languages. It should default to returning English.
@@ -17,6 +22,7 @@ function helloWorld(str){
 	}
 	return "hello, world";
 }
+
 
 
 //3- write a function to Reverse an array without use array.reverse() method:

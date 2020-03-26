@@ -15,6 +15,7 @@ function color(str){
 	return false;
 }
 
+
 // 3-Write a JavaScript function that accepts a number as a parameter and check if the number is prime or not.
 // i learned "let" in FCC so it would be nice if i use it hh ... so i declared a global variable j equal to zero then whenever my if condition is true
  // one will be added to j. so after looping if j is zero then n is prime otherwise return not prime......
@@ -32,9 +33,12 @@ return "not prime";
 
 // 4-write a function that accepts two numbers as parameters and returns true if the two parameters have the same value , false if not
 
+<<<<<<< HEAD
 function isEqual(x, y){
 	if (x === y){
 		return true;
 	}
 	return false;
 }
+=======
+>>>>>>> 61b0662bb14ae4fe1668c5e0f12461a2bba0362d

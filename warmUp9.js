@@ -22,9 +22,14 @@ function isArray(arr){
 
 //2-Write a JavaScript function to get the first n element of an array.
 //ex  first([1,2,3],1)=>[1]
+<<<<<<< HEAD
 //    first([1,2,3,4],2)=>[1,2]
 <<<<<<< HEAD
 =======
+=======
+//    first([1,2,3,4]2)=>[1,2]
+
+>>>>>>> 61b0662bb14ae4fe1668c5e0f12461a2bba0362d
 
 >>>>>>> 0e47aea7be29872390744ebf393e4da84d716048
 // **************** git status ****************
