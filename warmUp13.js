@@ -5,6 +5,14 @@
 //starting from 0, e.g.:
 // mult(3); // => 6
 // mult(4); // => 24
+function mult(n){
+	var result = 1;
+	for (var i= 1; i<= n; i++){
+
+		 result*= i;
+	}
+	return result;
+}
 
 // 2- Use a while loop to build a single string with the numbers 1 through n
 // separated by the number next to the current number.
